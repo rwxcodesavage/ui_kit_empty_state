@@ -22,6 +22,11 @@ main {
     background-color: var(--background-color);
     color: var(--text-color);
     height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .empty-state-title {
@@ -31,3 +36,6 @@ main {
 .empty-state-description {
     font-size: 12px;
 }
+
+
+
