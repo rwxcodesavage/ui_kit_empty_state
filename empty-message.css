@@ -1,3 +1,37 @@
-h1 {
-    color: red;
+:root{
+    --text-color: #05445E;
+    --background-color: #D4F1F4;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    margin: 0;
+}
+
+html,
+body,
+main,
+.empty-state{
+    height: 100%;
+}
+
+.empty-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: var(--background-color);
+}
+
+.empty-state-title {
+    color: var(--text-color);
+    font-size: 16px;
+}
+.empty-state-description {
+    font-size: 14px;
 }
